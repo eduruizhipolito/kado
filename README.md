@@ -23,8 +23,7 @@ phases are in [`docs/CLAUDE.md`](docs/CLAUDE.md).
 A batch of demo Kadós is live on **testnet**. Open the site and type one of the
 codes below — no link per code on purpose, so crawlers don't drain them.
 
-<!-- Replace with the Vercel URL once deployed -->
-**https://YOUR-VERCEL-URL**
+**https://kado-stellar.vercel.app**
 
 | Code |
 |---|

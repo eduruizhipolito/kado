@@ -24,8 +24,7 @@ Hay una tanda de Kadós de demo en **testnet**. Entra al sitio y escribe uno de
 los códigos de abajo — a propósito no hay un enlace por código, para que los bots
 no los agoten.
 
-<!-- Reemplazar con la URL de Vercel al desplegar -->
-**https://TU-URL-DE-VERCEL**
+**https://kado-stellar.vercel.app**
 
 | Código |
 |---|
