@@ -1,0 +1,35 @@
+{
+  "name": "kado",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Entrega de dolares digitales a personas sin wallet en eventos presenciales del Stellar Ambassador Chapter de Peru.",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "spike": "node spike/incognitas.mjs",
+    "generar-tanda": "tsx --env-file-if-exists=.env scripts/generar-tanda.ts",
+    "estado-tanda": "tsx --env-file-if-exists=.env scripts/estado-tanda.ts",
+    "tipos": "tsc --noEmit"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "@stellar/stellar-sdk": "^17.0.1",
+    "next": "^16.3.4",
+    "react": "^19.2.8",
+    "react-dom": "^19.2.8"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4.3.3",
+    "@types/node": "^26.4.1",
+    "@types/react": "^19.2.18",
+    "@types/react-dom": "^19.2.7",
+    "postcss": "^8.5.28",
+    "tailwindcss": "^4.3.3",
+    "tsx": "^4.23.13",
+    "typescript": "^7.0.2"
+  }
+}

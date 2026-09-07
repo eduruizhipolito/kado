@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="Kadó">
+  <defs>
+    <linearGradient id="tapa" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#6542d8" />
+      <stop offset="1" stop-color="#3d239a" />
+    </linearGradient>
+    <linearGradient id="cara" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#5634c2" />
+      <stop offset="1" stop-color="#3b218f" />
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" fill="#fff3e2" />
+  <path fill="#ff6b4a" d="M82 180 256 246 430 180 398 168 256 218 114 168z" />
+  <path fill="url(#cara)" d="M64 194 248 264v188L64 382z" />
+  <path fill="url(#cara)" d="m264 264 184-70v188l-184 70z" />
+  <path fill="url(#tapa)" d="m256 52 192 78v34l-192 72L64 164v-34z" />
+  <g fill="#fff3e2" font-family="Plus Jakarta Sans,Arial,sans-serif" font-size="64" font-weight="800" text-anchor="middle">
+    <text x="156" y="280" transform="matrix(1 .38 0 1 0 0)">Ka</text>
+    <text x="356" y="460" transform="matrix(1 -.38 0 1 0 0)">Dó</text>
+  </g>
+</svg>

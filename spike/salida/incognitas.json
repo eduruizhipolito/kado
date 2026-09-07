@@ -1,0 +1,96 @@
+{
+  "red": "testnet",
+  "horizon": "https://horizon-testnet.stellar.org",
+  "corrida": "2026-09-06T16:54:29.832Z",
+  "incognitas": {
+    "i1": {
+      "pregunta": "CreateClaimableBalanceOp acepta como destination una clave publica cuya cuenta no existe?",
+      "respuesta": "SI",
+      "nota": "La cuenta del asistente no existia al crear el balance. Horizon acepto la operacion."
+    },
+    "i2": {
+      "pregunta": "Se pueden encadenar creacion de cuenta patrocinada y ClaimClaimableBalance en una sola transaccion?",
+      "respuesta": "SI",
+      "operaciones": [
+        "beginSponsoringFutureReserves (fuente: patrocinadora)",
+        "createAccount startingBalance=0 (fuente: patrocinadora)",
+        "endSponsoringFutureReserves (fuente: asistente)",
+        "claimClaimableBalance (fuente: asistente)"
+      ],
+      "firmas": "patrocinadora + asistente",
+      "saldoFinalXlm": "2.0000000",
+      "nota": "Con XLM no hace falta ChangeTrust. La apertura es un solo boton."
+    },
+    "i3": {
+      "pregunta": "Con un activo distinto de XLM, cual es el orden exacto de operaciones?",
+      "respuesta": "ChangeTrust va DENTRO del sandwich de patrocinio, antes del claim",
+      "ordenCorrecto": [
+        "beginSponsoringFutureReserves (fuente: patrocinadora, sponsoredId: asistente)",
+        "createAccount startingBalance=0 (fuente: patrocinadora)",
+        "changeTrust (fuente: asistente)",
+        "endSponsoringFutureReserves (fuente: asistente)",
+        "claimClaimableBalance (fuente: asistente)"
+      ],
+      "controlNegativoSinTrustline": {
+        "fallo": true,
+        "codigos": {
+          "transaction": "tx_failed",
+          "operations": [
+            "op_success",
+            "op_success",
+            "op_success",
+            "op_no_trust"
+          ]
+        }
+      },
+      "saldoFinalKdusd": "2.0000000",
+      "saldoFinalXlm": "0.0000000",
+      "patrocinadorDeReservas": "GATNQX7KQJEXB4BR7IWBU54PXEWWIIRD4OJ7DGIYVVGWBL4D45SHFADO",
+      "reservasPatrocinadas": 3
+    }
+  },
+  "cuentas": {
+    "patrocinadora": "GATNQX7KQJEXB4BR7IWBU54PXEWWIIRD4OJ7DGIYVVGWBL4D45SHFADO",
+    "emisora": "GBOXPEEPUKEM4HZV6SCZXZHKKCECJMLEZ65RFPOI3RRYPO5RBI5DCD54",
+    "asistenteXlm": "GAWCMJ57NV4LBKYOUEHIRF6HCBPLRAMSE4EYFEOMIMMOMUH6GCC5IDIF",
+    "asistenteKdusd": "GAHEDE2PAUBQUWJVP37GNTPJXEDF7VI6X3XT7HWOMGCY3GQ227WNOBEX"
+  },
+  "hashes": [
+    {
+      "nombre": "i1-crear-balance-xlm-a-cuenta-inexistente",
+      "hash": "9163729d22c14c66eed586e2925ec590a475b02ac0432ef335b42c6560a0d94b",
+      "operaciones": 1,
+      "explorador": "https://stellar.expert/explorer/testnet/tx/9163729d22c14c66eed586e2925ec590a475b02ac0432ef335b42c6560a0d94b"
+    },
+    {
+      "nombre": "i2-cuenta-patrocinada-y-apertura-xlm",
+      "hash": "d3e637e953a3317705c97754384ed42da05addcbc18555ec40be9f0c6aa84067",
+      "operaciones": 4,
+      "explorador": "https://stellar.expert/explorer/testnet/tx/d3e637e953a3317705c97754384ed42da05addcbc18555ec40be9f0c6aa84067"
+    },
+    {
+      "nombre": "i3-preparar-activo-kdusd",
+      "hash": "24f4f7c29c90f9f41f9ff3f6392755dcb6abd15838218b1b5e1bc16efd227ba7",
+      "operaciones": 2,
+      "explorador": "https://stellar.expert/explorer/testnet/tx/24f4f7c29c90f9f41f9ff3f6392755dcb6abd15838218b1b5e1bc16efd227ba7"
+    },
+    {
+      "nombre": "i3-crear-balance-kdusd-a-cuenta-inexistente",
+      "hash": "894bf87c9c021e5749ebc215b36a0b8ae6e3c457af9aa2a6f21a2a880abf2b8b",
+      "operaciones": 1,
+      "explorador": "https://stellar.expert/explorer/testnet/tx/894bf87c9c021e5749ebc215b36a0b8ae6e3c457af9aa2a6f21a2a880abf2b8b"
+    },
+    {
+      "nombre": "i3-cuenta-patrocinada-changetrust-y-apertura-kdusd",
+      "hash": "35a50eb10cc3dff0bfe5d36e34f57be01c3462800b1a1e2f6b7f94f47db37e34",
+      "operaciones": 5,
+      "explorador": "https://stellar.expert/explorer/testnet/tx/35a50eb10cc3dff0bfe5d36e34f57be01c3462800b1a1e2f6b7f94f47db37e34"
+    }
+  ],
+  "costoPatrocinadora": {
+    "saldoInicialXlm": "10000.0000000",
+    "saldoFinalXlm": "9997.9998300",
+    "reservasPatrocinadas": 5
+  },
+  "estado": "ok"
+}

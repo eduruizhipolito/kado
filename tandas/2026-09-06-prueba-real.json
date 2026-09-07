@@ -1,0 +1,40 @@
+{
+  "id": "2026-09-06-prueba-real",
+  "evento": "Prueba real",
+  "fecha": "2026-09-06",
+  "red": "testnet",
+  "activo": {
+    "codigo": "XLM",
+    "emisor": null
+  },
+  "montoPorKado": "10.7816712",
+  "valorUsd": "2.00",
+  "tasaUsdPorUnidad": "0.1855",
+  "expiraEn": "2026-09-20T21:07:24.344Z",
+  "generadaEn": "2026-09-06T21:07:31.291Z",
+  "hashes": [
+    "fecf7802e046cb583c23a705866da638f87ef4db4eb81ff4ec55f13adfd32bd5"
+  ],
+  "kados": [
+    {
+      "publicKey": "GC7V4C2WXAEBS3JGWQ2YJATXNLGFYQQH7DIGS242L7ZPMUSC4CRRDT5Y",
+      "balanceId": "00000000266e2255e4c4b0eb61a671dcb01e3f027fe58458058f8e7683160fea4a3be2d2"
+    },
+    {
+      "publicKey": "GC5ZOL6NGMGHXPWF3I3CKSHARO5IE26FLF56KJS6JRYI2YXP6JUYE25H",
+      "balanceId": "00000000f0103ea4c81f7ea97ab92d899f9564e7038722986759c097d34b6efb5bee0e5e"
+    },
+    {
+      "publicKey": "GACSTEZ7Y36UTTTFCLEDDXZ4R6QRIEUD3R5GYN2FUS6XKWWYWBQTYHL3",
+      "balanceId": "00000000dcaf8aa3639b8e24cb1ec326cdee6a2f85afb74abb77933aa94970d1d47e7a9b"
+    },
+    {
+      "publicKey": "GCR24MYPV4O4RPDV6UFTLSCI5LJERY7SPVUJA2DUXB4YHWNDUD7B6O7S",
+      "balanceId": "000000003a01bf0430dba5c0a90fe3249f7a3adaef60e7e5cd832807943e4209ad71eeae"
+    },
+    {
+      "publicKey": "GBXPCM4LIGJXFRUYDJ5WXGWZOPU6O5T4T4JBCNV5KUKHD2PT7DRGNJPW",
+      "balanceId": "000000007628418db0c52cd3d59e90de8d47202b55c5e9a975e010d140100aebf7551e92"
+    }
+  ]
+}

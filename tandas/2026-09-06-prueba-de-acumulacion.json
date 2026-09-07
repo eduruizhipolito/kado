@@ -1,0 +1,32 @@
+{
+  "id": "2026-09-06-prueba-de-acumulacion",
+  "evento": "Prueba de acumulacion",
+  "fecha": "2026-09-06",
+  "red": "testnet",
+  "activo": {
+    "codigo": "XLM",
+    "emisor": null
+  },
+  "montoPorKado": "6.2500000",
+  "valorUsd": "2.00",
+  "tasaUsdPorUnidad": "0.32",
+  "expiraEn": "2026-09-20T22:44:45.495Z",
+  "generadaEn": "2026-09-06T22:44:51.181Z",
+  "hashes": [
+    "d1767d8b053a79740a7c058b3eab30ceaf06348a4edffd3ac8a5b894a74aadec"
+  ],
+  "kados": [
+    {
+      "publicKey": "GC72NF5WNE5DHJTSW3L7B4QSIFNIDHCSELXM5GTDBIBUP2GN5GBNSA6K",
+      "balanceId": "00000000fd9815ff83408802fb80976ed35c34040f2ee6be527659e3e27c4f9cd773c98d"
+    },
+    {
+      "publicKey": "GDGSJDO2X2W767VE3DEJHOAHUPVSZI374RV5B4GTP54LILNBW5VEUTOY",
+      "balanceId": "00000000a71ec46799269e79430619472a1226297e67bdf26e6ad83aa35f214e5198ae8a"
+    },
+    {
+      "publicKey": "GDY5EJ67II4QMX6FHAAPWF747A6U24JCXJJZCD323J4AGBWPNESMW6V3",
+      "balanceId": "00000000d10aa7cf6c5917f846d9e69b10499c67023348f0e937eca727bc6fe9ef41a143"
+    }
+  ]
+}

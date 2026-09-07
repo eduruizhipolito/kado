@@ -1,0 +1,52 @@
+{
+  "id": "2026-09-06-prueba-de-eduardo",
+  "evento": "Prueba de Eduardo",
+  "fecha": "2026-09-06",
+  "red": "testnet",
+  "activo": {
+    "codigo": "XLM",
+    "emisor": null
+  },
+  "montoPorKado": "6.2500000",
+  "valorUsd": "2.00",
+  "tasaUsdPorUnidad": "0.32",
+  "expiraEn": "2026-09-20T17:29:40.345Z",
+  "generadaEn": "2026-09-06T17:29:46.411Z",
+  "hashes": [
+    "1af8576de5e7224cc255edbf8141ec1dca8f5987b8b2edb1159b200c80568382"
+  ],
+  "kados": [
+    {
+      "publicKey": "GDMY4XW7VY3R6PPWXZ42YOLX5YT57NJA6NZRHUR2NCODJTSSEHWVPF52",
+      "balanceId": "00000000a0eb056384eefcbf458a2f7a0871025b6df9035826249c525d8cf3fb49a462d1"
+    },
+    {
+      "publicKey": "GBRBV3BUY4EDM375CKVINZDUWXBX3GYAYHHLLTKJFIJQK4J4YPCSS3D6",
+      "balanceId": "000000001dd3910d102ee37a54b70d61b6aa6ea015535c502d6129952e1bbeda6400d85a"
+    },
+    {
+      "publicKey": "GDB4RMRM7JJ4WSWIWXYRAK6WKUGYV4ZZEZZAZFBAXEXHQRWDKFCY62F6",
+      "balanceId": "000000001b685e934a70a3788538242608df71a63d4312b0b7b0bd7fc453536552306820"
+    },
+    {
+      "publicKey": "GDX6HCN3ST3Q6TNC65IAVJPXCJPUVEPEV5JIEGDO2GQNSIWWYRY7BEZG",
+      "balanceId": "0000000043565e75de31d6039381065dc0d2d53c7bb024df9a40a3cc85ac0160c76f7cdf"
+    },
+    {
+      "publicKey": "GBEB2RCQHXX2JZVMHTQVQWZQTMQDIUNVWK3EZ3UI2I6DRJMYZAAJVP5H",
+      "balanceId": "00000000376a06f4f95865775aa2d9aaf68cc2eae7627de11f2ece352314c479df8e6ac0"
+    },
+    {
+      "publicKey": "GDUVZ5FINSPRK4BCTOJHATBAEPKO4ZIZFG5VEDKRQUHQE6LLV64FNWCN",
+      "balanceId": "0000000089a7f6bde5d4fa66540189a80640d8601d1389fb233e9ba01a3bc8d03620fbaf"
+    },
+    {
+      "publicKey": "GBOTONXOC3MTZPYG32TQZATZY4BNTY7UUZPZVKX4JAYEC6YL62FKNTV2",
+      "balanceId": "000000005b806c634694180c880534c94306498e75962de616cc0bba14f42d9c03e22350"
+    },
+    {
+      "publicKey": "GBLPXQ3FDEUP2R2XXZJWKOYKUCYSQMWYVBVCQWZEYZFGBNL6T5FBILWZ",
+      "balanceId": "000000005fae479fdfba589b14ed4fcc5f84ebc7766d482266b14fddaa1bc06b6a101ce2"
+    }
+  ]
+}

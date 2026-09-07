@@ -1,0 +1,28 @@
+{
+  "id": "2026-08-20-tanda-vencida-prueba",
+  "evento": "Tanda vencida (prueba)",
+  "fecha": "2026-08-20",
+  "red": "testnet",
+  "activo": {
+    "codigo": "XLM",
+    "emisor": null
+  },
+  "montoPorKado": "6.2500000",
+  "valorUsd": "2.00",
+  "tasaUsdPorUnidad": "0.32",
+  "expiraEn": "2026-09-05T17:29:48.302Z",
+  "generadaEn": "2026-09-06T17:29:51.412Z",
+  "hashes": [
+    "a8f4c944423f29dcd8c648acd91702b7abefe71321271da16354370915b5acad"
+  ],
+  "kados": [
+    {
+      "publicKey": "GC4XVRQMGFOEBSHLXOBH2YK4ZQOOILHUEDEX56SLBPERPYPHMYAP7MAA",
+      "balanceId": "000000004573339771fddae3944ce54567987e28bf3ef404c025979c9cf71b3312088d4d"
+    },
+    {
+      "publicKey": "GCHB4KB55W24KOBBED4MJKLMTAFUELK26ZOK25XOLPVTL3E6WTLGJ3DP",
+      "balanceId": "00000000eba43476c14825504ae49435264f5fbe0a6cb6bee58e1c1573ae287e5f290012"
+    }
+  ]
+}

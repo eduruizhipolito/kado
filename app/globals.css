@@ -1,0 +1,69 @@
+@import 'tailwindcss';
+
+/*
+ * Paleta de docs/stitch-brief.md. Son seis colores y no hay un septimo.
+ * Nada de gradientes, sombras ni bordes redondeados: la jerarquia se construye
+ * con planos de color y escala tipografica.
+ */
+@theme {
+  --color-tapa: #4b2fa3;
+  --color-interior: #fff3e2;
+  --color-tinta: #241c33;
+  --color-costura: #ff6b4a;
+  --color-confirmado: #2e9e6b;
+  --color-apagado: #7a6f8f;
+
+  --font-sans: var(--fuente-jakarta), ui-sans-serif, system-ui, sans-serif;
+
+  --radius-*: initial;
+  --shadow-*: initial;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background-color: var(--color-tapa);
+  color: var(--color-interior);
+  -webkit-tap-highlight-color: transparent;
+  overscroll-behavior: none;
+}
+
+/* Nunca hay scroll horizontal, y en el flujo de apertura tampoco vertical. */
+body {
+  overflow-x: hidden;
+}
+
+/*
+ * La franja de progreso de la pantalla "abriendo". Es lineal a proposito: un
+ * spinner circular gira sin decir nada, y la barra sugiere avance.
+ */
+@keyframes recorrer-costura {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(400%);
+  }
+}
+
+.costura-en-progreso::after {
+  content: '';
+  position: absolute;
+  inset-block: 0;
+  left: 0;
+  width: 25%;
+  background-color: var(--color-interior);
+  animation: recorrer-costura 1.4s cubic-bezier(0.4, 0, 0.2, 1) infinite;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .costura-en-progreso::after {
+    animation-duration: 3s;
+  }
+  *,
+  *::before,
+  *::after {
+    transition-duration: 0.01ms !important;
+  }
+}

@@ -1,0 +1,3 @@
+# Los codigos son el material sensible: quien tiene un codigo abre ese Kado.
+# Los manifiestos .json si se versionan: son publicos y son la evidencia.
+*.codigos.csv

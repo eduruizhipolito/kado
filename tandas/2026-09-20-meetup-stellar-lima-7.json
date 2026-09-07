@@ -1,0 +1,40 @@
+{
+  "id": "2026-09-20-meetup-stellar-lima-7",
+  "evento": "Meetup Stellar Lima #7",
+  "fecha": "2026-09-20",
+  "red": "testnet",
+  "activo": {
+    "codigo": "XLM",
+    "emisor": null
+  },
+  "montoPorKado": "6.2500000",
+  "valorUsd": "2.00",
+  "tasaUsdPorUnidad": "0.32",
+  "expiraEn": "2026-09-20T17:16:17.600Z",
+  "generadaEn": "2026-09-06T17:16:20.715Z",
+  "hashes": [
+    "414791681a787a57d277ee9552e7b353d82eec3372feb61a955448957978185e"
+  ],
+  "kados": [
+    {
+      "publicKey": "GCHVLRSIGC5EONR42ERCYRI5NNC32J2BQHNYPIE52TWZQEGITBIEW7BH",
+      "balanceId": "00000000aa1c0193b84c99859ad62106564cf1f2427980751e49a5bd17a24a00ebac12fe"
+    },
+    {
+      "publicKey": "GCOQLVYJZTRHA6XXITBEAQDT4UYJ3FYVNBI35Y7ZBD2GDGUCA45N36EO",
+      "balanceId": "00000000170a79389ec6267ef867e274225f72d4199c58b3b3f7322fb0b29b2da79c4f2a"
+    },
+    {
+      "publicKey": "GCEEWROIN6NKKYZRUWXGQV3L4PGKM2ALSAGZZFYWUA74RM67XZ6RVWIM",
+      "balanceId": "00000000fd2d9a49db34b36d06fee7bad33c097cc55babe8470962522b2a9a3f0282490a"
+    },
+    {
+      "publicKey": "GCAX6LLGLS5MUZVEE4TAR5XM3SJB5IBUZGINJXMCXHQGRC7O5H6AZ6UX",
+      "balanceId": "000000006a26d4928d90d91e7b212056e653cf9d4efcf7d6a54a4813115ea75a34292a05"
+    },
+    {
+      "publicKey": "GC4P5FLIEUOXY63PR3JPOFOY4R7YGHZNBWG4KYLVSCJBOBJ4IJTMOL6L",
+      "balanceId": "000000001898f45164a811de5dd15fa31124b8da99cac6fc85f59c8711f747bad9976aea"
+    }
+  ]
+}

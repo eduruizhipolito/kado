@@ -1,0 +1,15 @@
+node_modules/
+.env
+.env.*
+!.env.example
+*.log
+# spike/salida/ se versiona a proposito: es la evidencia on-chain del piloto
+dist/
+.DS_Store
+.next/
+.vercel/
+next-env.d.ts
+*.tsbuildinfo
+# CLAUDE.md de la raiz: lo regenera next dev y solo importa AGENTS.md.
+# El contexto del producto vive en docs/CLAUDE.md, que si se versiona.
+/CLAUDE.md
