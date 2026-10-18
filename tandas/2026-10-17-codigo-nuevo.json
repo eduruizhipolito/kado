@@ -1,0 +1,24 @@
+{
+  "id": "2026-10-17-codigo-nuevo",
+  "evento": "Codigo nuevo",
+  "fecha": "2026-10-17",
+  "red": "testnet",
+  "activo": {
+    "codigo": "XLM",
+    "emisor": null
+  },
+  "montoPorKado": "10.0000000",
+  "valorUsd": null,
+  "tasaUsdPorUnidad": null,
+  "expiraEn": "2026-11-01T02:32:00.465Z",
+  "generadaEn": "2026-10-18T02:32:08.351Z",
+  "hashes": [
+    "e8436f6a3271a79a94cb796cc4ac833b43f3927d198ab5c5b60f70909c427f5c"
+  ],
+  "kados": [
+    {
+      "publicKey": "GCU5KHKP4HRCHVHXUJQJEXVUYNM4LLFHBAHMB5KXTJTQD4WAZZ5NHWQU",
+      "balanceId": "00000000df239b42c76c4da1e6f9c89085677270c325a4695790e914c77ce318c4f1479b"
+    }
+  ]
+}
